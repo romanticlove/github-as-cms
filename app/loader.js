@@ -36,7 +36,7 @@ function buildIndexes(jsons) {
     const timestampsIndex = {};
 
     for(const entity in jsons) {
-        slugsIndex[entity] = {}
+        slugsIndex[entity] = slugsIndex[entity] || {}
 
         jsons[entity].forEach((file) => {
             slugsIndex[entity][file.slug] = file

@@ -34,6 +34,7 @@ function parseMD(data, timestamps = {}) {
 function replaceAttachmentsUrlsToCDN(data) {
     return data.replace(/..\/attachments/g, '[[CDN_URL]]')
 }
+
 function parseTimestamps(timestamps, filePath) {
     const filePathChunks = filePath.replace(sourcePath,'').split('/');
     filePathChunks.shift();
