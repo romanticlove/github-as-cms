@@ -3,7 +3,7 @@
 
 This one is not full complete product, but probably you are looking
 for some startup template to adapt on your need
-##What is it?
+## What is it?
 The idea was born when i decided to create my own blog.
 
 WordPress looks outdated and all headless CMS looks like overhead.
